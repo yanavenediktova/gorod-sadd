@@ -1,0 +1,116 @@
+html {
+  font-size: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+[class*="main-container-"] {
+  border: 2px solid #000;
+
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.8rem;
+}
+.main-container-header {
+  background-color: #d9ead3;
+}
+.main-container-content {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #fff;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.form-bootstrap {
+  padding: 15px;
+  font-size: 1.6rem;
+  text-align: initial;
+}
+
+.input-group-text,
+.btn,
+.form-select,
+.form-control {
+  font-size: 1.6rem;
+}
+.main-container-sidebar-left {
+  border-top: none;
+  background-color: #9fc5e8;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.main-container-sidebar-right {
+  border-top: none;
+  background-color: #b4a7d6;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.main-container-footer {
+  border-top: none;
+  background-color: #f9cb9c;
+}
+.programs-food__ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+.programs-food__li {
+  padding-left: 0.2em;
+}
+.button_programs {
+  margin: 20px auto;
+  border-radius: 58px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  background-color: inherit;
+  text-transform: uppercase;
+  border: 2px solid #ef3120;
+  color: #ef3120;
+  padding: 17px 30px;
+}
+.list-of-programs__img {
+  width: 100%;
+}
+.list-group-item {
+  border: none;
+  text-align: start;
+}
+.nav-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.pagination {
+  --bs-pagination-font-size: 2rem;
+}
+ul[class] {
+  list-style: none;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .content {
+    border-right: 2px solid #000;
+  }
+  .sidebar-right {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .content {
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .sidebar-left {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .sidebar-right {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
